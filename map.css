@@ -1,0 +1,105 @@
+body {
+    background-image: url("hintergrund.jpg"); /* Quelle: https://www.markoetter.de/aktuelles/ratgeber/urlaubs-tipp-ein-langes-wochenende-auf-der-maerchenstrasse/ */
+    background-size: cover;
+}
+
+#kopf {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Snell Roundhand";
+    background-color: transparent;
+}
+
+#menu {
+    margin: -8px;
+    padding: inherit;
+    background-color: transparent;
+    color: black;
+    font-size: 22px;
+    font-family: "Snell Roundhand";
+}
+
+#content {
+    color: black;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    float: none;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    
+    /*-webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(30px);*/
+}
+
+/*
+footer {
+    position: absolute;        
+    bottom: 0;
+    background-color: white;
+}*/
+
+
+/*Linkgestaltung: */
+
+ul, li {
+    list-style: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: normal;
+    display:inline;        /* Links nebeneinander setzen */
+    list-style: none;      /* Navigationspunkte entfernen */
+    margin-left: 120px;     /* Abstand von links */
+    
+}
+
+a:link, a:active, a:visited, a:hover { 
+    color: black; 
+    text-decoration: none; /* Linkelemente nicht unterstreichen/färben */
+    
+} 
+
+
+/*
+table {
+    margin: 2px;
+    background-color: black;
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    float: right;
+}
+
+ Suchfeld 
+
+input.suchen {
+    float: right;
+    margin-right: 72px;
+    margin-top: -18px;
+    cursor: pointer;
+    width: 250px;
+    height: 13px;
+    outline: 0 none;
+    font-style: normal;
+    border-radius: 4px;
+} */
+
+/*
+table, th, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+th, td {
+  padding: 5px;
+}
