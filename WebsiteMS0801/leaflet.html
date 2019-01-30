@@ -44,9 +44,26 @@
     prefix: 'fa'
   });
 
+     var blackMarker = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+    markerColor: 'black',
+    shape: 'star',
+    prefix: 'fa'
+  });
+     
+     var rectMarker = L.ExtraMarkers.icon({
+    icon: 'sync',  //Error
+    markerColor: 'green-dark',
+    shape: 'penta',
+    prefix: 'fa'
+  });
+     
      L.marker([51.941196, 8.512291], {icon: redMarker}).bindPopup("marker").addTo(mymap);
      L.marker([51.941196, 9.512291], {icon: redMarker}).bindPopup("marker2").addTo(mymap);
-     L.marker([52.941196, 8.512291], {icon: redMarker}).bindPopup("marker3").addTo(mymap);
+     L.marker([52.941196, 8.512291], {icon: blackMarker}).bindPopup("marker3").addTo(mymap);
+     L.marker([49.941196, 7.512291], {icon: blackMarker}).bindPopup("marker4").addTo(mymap);
+     L.marker([52.941196, 10.512291], {icon: rectMarker}).bindPopup("marker5").addTo(mymap);
+     L.marker([49.941196, 10.512291], {icon: rectMarker}).bindPopup("marker6").addTo(mymap);
      
      
      
