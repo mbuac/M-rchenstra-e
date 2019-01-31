@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+    
 	<title>Quick Start - Leaflet</title>
 
 	<meta charset="utf-8" />
@@ -15,6 +15,9 @@
     <!-- extra Leaflet markers -->
     <link rel="stylesheet" href="dist/css/leaflet.extra-markers.min.css"/>
     <script src="dist/js/leaflet.extra-markers.min.js"></script>
+    
+    <!-- Logo in Addresszeile -->
+    <link rel="icon" type="image/png" href="krone.png">
 	
 </head>
 <body>
@@ -52,18 +55,37 @@
   });
      
      var rectMarker = L.ExtraMarkers.icon({
-    icon: 'sync',  //Error
+    icon: 'sync',  //Error: Symbol wird nicht angezeigt
     markerColor: 'green-dark',
     shape: 'penta',
     prefix: 'fa'
   });
      
-     L.marker([51.941196, 8.512291], {icon: redMarker}).bindPopup("marker").addTo(mymap);
-     L.marker([51.941196, 9.512291], {icon: redMarker}).bindPopup("marker2").addTo(mymap);
-     L.marker([52.941196, 8.512291], {icon: blackMarker}).bindPopup("marker3").addTo(mymap);
-     L.marker([49.941196, 7.512291], {icon: blackMarker}).bindPopup("marker4").addTo(mymap);
-     L.marker([52.941196, 10.512291], {icon: rectMarker}).bindPopup("marker5").addTo(mymap);
-     L.marker([49.941196, 10.512291], {icon: rectMarker}).bindPopup("marker6").addTo(mymap);
+     //FRAU HOLLE ROUTE: PUNKTE (danach kommen noch Linien und Gebäude)
+     
+     //Deutschee Märchenstraße e.V. 
+     L.marker([51.317061, 9.490092], {icon: redMarker}).bindPopup("Deutsche Märchenstraße e.V. <br> Kurfürstenstraße 9 <br> 34117 Kassel").addTo(mymap);
+     //GRIMMWELT Kassel
+     L.marker([51.309047, 9.489083], {icon: redMarker}).bindPopup("GRIMMWELT Kassel gGmbH <br> Weinbergstraße 21 <br> 34117 Kassel").addTo(mymap);
+     //ESSEN:Grimms Garten (ESSEN-Symbol hinzufügen-Aktivität)
+     L.marker([51.308785, 9.489337], {icon: blackMarker}).bindPopup("Grimms Garten <br> Weinbergstraße 21 <br> 34117 Kassel").addTo(mymap);
+     //FÜHRUNG: Weinbergbunker
+     L.marker([51.309079, 9.489393], {icon: rectMarker}).bindPopup("Weinbergbunker <br> Frankfurter Str. <br> 34117 Kassel").addTo(mymap);
+     //Wanderparkplatz Sage "Niester Riesen"
+     L.marker([51.305782, 9.650861], {icon: redMarker}).bindPopup("Wander-Parkplatz 'Niester Riesen' <br> K6 <br> 34329 Nieste").addTo(mymap);
+     //Weg "Niester Riesen"
+     L.marker([51.306224, 9.651076], {icon: redMarker}).bindPopup("Premiumweg P11 Niester Riesen <br> 34329 Nieste").addTo(mymap);
+     //ESSEN: Königs-Alm
+     L.marker([51.305507, 9.654499], {icon: blackMarker}).bindPopup("Königs-Alm <br> Tannenhütte 1 <br> 34329 Nieste").addTo(mymap);
+     //PKW Parkplatz Königs-Alm
+     L.marker([51.305418, 9.651838], {icon: redMarker}).bindPopup("PKW Parkplatz <br> 34329 Nieste").addTo(mymap);
+     //Motorrad Parkplatz Königsalm
+     L.marker([51.305619, 9.653432], {icon: rectMarker}).bindPopup("Motorradparkplatz (Königsalm) <br> 34329 Nieste").addTo(mymap);
+     //Stiftskirche Zum heiligen Kreuz --//Partner-WEBSITEN//INFOS noch ergänzen!Bei klick
+     L.marker([51.280161, 9.634457], {icon: rectMarker}).bindPopup("Stiftskirche Zum heiligen Kreuz <br> Zur Schönen Aussicht 2 <br> 34260 Kaufungen").addTo(mymap);
+     //
+     L.marker([51.280161, 9.634457], {icon: rectMarker}).bindPopup("Stiftskirche Zum heiligen Kreuz <br> Zur Schönen Aussicht 2 <br> 34260 Kaufungen").addTo(mymap);
+     
      
      
      
@@ -83,14 +105,14 @@
 		redIcon = new Icon({iconUrl: 'leaf-red.png'}),
 		orangeIcon = new Icon({iconUrl: 'leaf-orange.png'});
 
-	L.marker([51.5, 9], {icon: greenIcon}).bindPopup("I am a green leaf.").addTo(mymap);
+	/*L.marker([51.5, 9], {icon: greenIcon}).bindPopup("I am a green leaf.").addTo(mymap);
      L.marker([52.2, 9.5], {icon: greenIcon}).bindPopup("I am a green leaf.").addTo(mymap);
      L.marker([52.2, 9], {icon: greenIcon}).bindPopup("I am a green leaf.").addTo(mymap);
 	L.marker([50, 8.3], {icon: redIcon}).bindPopup("I am a red leaf.").addTo(mymap);
      L.marker([50.8, 9.3], {icon: redIcon}).bindPopup("I am a red leaf.").addTo(mymap);
 	L.marker([52.49, 10], {icon: orangeIcon}).bindPopup("I am an orange leaf.").addTo(mymap);
      L.marker([50.5, 8.5], {icon: orangeIcon}).bindPopup("I am an orange leaf.").addTo(mymap);
-     L.marker([49.5, 7.5], {icon: orangeIcon}).bindPopup("I am an orange leaf.").addTo(mymap);
+     L.marker([49.5, 7.5], {icon: orangeIcon}).bindPopup("I am an orange leaf.").addTo(mymap);*/
      
    
     
