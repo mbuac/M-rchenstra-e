@@ -5,6 +5,15 @@ html, body{
 	text-align: center;
 }
 
+#mapid { /* interaktive map skalieren und zentrieren */
+    width: 1000px;
+    height: 600px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
 section{
 	min-height: 100%;
 }
