@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="fontawesome.min.css"/>
+        <link rel="shortcut icon" href="img/fairytale.png"/>
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+        <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+ <!-- extra Leaflet markers -->
+    <link rel="stylesheet" href="dist/css/leaflet.extra-markers.min.css"/>
+    <script src="dist/js/leaflet.extra-markers.min.js"></script> 
+    
+    <script src="dist/src/leaflet-timeline-slider.js"></script> 
+    
+    <title>Test</title>
+    
+ </head>
+    
+<body>
+	<header>
+		<div id="logo"> 
+			<a href="#">
+				<img src="img/fairytale.png" alt="Logo">
+			</a>
+		</div>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">Tales</a></li>
+				<li><a href="#map">Map</a></li>
+			<!--	<li><a href="#route01">Routen</a></li> --->
+			</ul>
+		</nav>
+	</header>
+
+	<!-------HOME--------------------------------------------->
+
+	<section id="home">
+		<hr>
+	<!--	<h1>Märchenstraße</h1>
+		<h2>Brüder Grimm</h2> -->
+		<a href="#about">
+			<img src="img/pfeil.png" alt="Pfeil">
+		</a>
+	</section>
+
+	<!-------ABOUT--------------------------------------------->
+
+	<section id="about">
+		<h3>About</h3>
+		<hr>
+		<img src="img/grimm.png" alt="Avatar">
+		<h4>Deutsche Märchenstraße</h4>
+		<p>Die Deutsche Märchenstraße ist eine Ferienstraße in Deutschland. Seit 1975 führt die Route von der hessischen Brüder-Grimm-Stadt Hanau im Kinzigtal über 600 Kilometer bis ins norddeutsche Bremen, der Stadt der Bremer Stadtmusikanten. Sie reiht die Lebensstationen der Brüder Grimm sowie Orte und Landschaften, in denen ihre Märchen beheimatet sind, an einem Reiseweg aneinander. </p>
+	</section>
+
+	<!-------WORK--------------------------------------------->
+
+	<section id="work">
+		<h3>Tales</h3>
+		<hr>
+		<div id="projects">
+			<ul>
+				<li><a href="#route01"><img src="img/grimm001.jpg" alt="Project_01"></a></li>
+				<li><a href="#route02"><img src="img/dornroschen.jpg" alt="Project_02"></a></li>
+				<li><a href="#route03"><img src="img/holle.jpg" alt="Project_03"></a></li>
+				<li><a href="#route04"><img src="img/gretelhansel.jpg" alt="Project_04"></a></li>
+				<li><a href="#route05"><img src="img/Rotkäppchen.jpg" alt="Project_05"></a></li>
+				<li><a href="#"><img src="img/coming-soon.jpg" alt="Project_06"></a></li>
+
+			</ul>
+		</div>
+	</section>
+
+	<!-------ROUTE--------------------------------------------->
+
+	<section id="route01">
+		<h3>Lebensstationen: Brüder Grimm</h3>
+		<hr>
+		<img src="img/Screenshot1.png" alt="Straße">
+		<p> In sechs Städten, Hanau, Steinau an der Straße, Marburg und Kassel sowie Göttingen und Berlin, haben Jacob (1785 – 1863) und Wilhelm (1786 – 1859) Grimm gelebt, gelernt, gewirkt. Spuren haben sie und ihr „Malerbruder“ Ludwig Emil aber auch in zahlreichen anderen Städten und Landgemeinden in Hessen und darüber hinaus hinterlassen.
+			<p>
+		
+		<p> Ihre Lebensorte in Hessen (siehe Map): <p>
+			<li>
+				<ul>Hanau<ul>
+			<ul>Steinau	an der Straße<ul>
+			<ul>Schlüchtern<ul>
+			<ul>Freiensteinau<ul>
+				<ul>Herbstein<ul>
+				<ul>Alsfeld<ul>
+				<ul>Marburg<ul>
+<li>
+<p>...............................................................................</p>
+	<p> Weitere Lebensstandorte außerhalb Hessen können mit der Timeline erforscht werden. (siehe Map)<p>
+	</section>
+
+	<section id="route02">
+		<h3>Dornröschen Route</h3>
+		<hr>	
+		<img src="img/Screenshot0.png" alt="Dornröschen">
+		<p>Diese Route, die der berühmten schlafenden Schönheit gewidmet ist, verläuft durch folgende Orte:</p>
+		<li>
+			<ul>
+				Hannoversch Münden
+			</ul>
+			<ul>
+				Immenhausen
+			</ul>
+			<ul>
+				Reinhardswald und Sababurg, inklusive Dornröschen-Schloss
+			</ul>
+			<ul>
+				Hogeismar
+			</ul>
+			<ul>
+				Trendelburg, hier steht die berühmte Rapunzel-Burg (Burg Trendelburg)
+			</ul>
+			<ul>
+				Oberweser
+			</ul>
+			<ul>
+				Fürstenberg
+			</ul>
+		</li>
+
+		<p>(Quelle: https://de.omio.com/blog/deutsche-maerchenstrasse/)<p>
+	
+	</section>
+
+	<section id="route03">
+		<!--<script type="text/javascript" src="snowflakes.js"></script> --->
+		<h3>Frau Holle Route</h3>
+		<hr>
+		<img src="img/Screenshot2.png" alt="Frau Holle">
+		<p>Auf der Frau-Holle-Route passiert man diese verträumten Städtchen:</p>
+		<li>
+			
+		<ul>
+			Nieste
+		</ul>
+		<ul>
+			Kaufungen
+		</ul>
+		<ul>
+			Hessisch Lichtenau, das Frau-Holle-Land mit dem Frau-Holle-Rundweg
+		</ul>
+		<ul>
+			Bad Sooden-Allendorf
+		</ul>
+		<ul>
+			Witzenhausen 
+		</ul>
+		<ul>
+			Heilbad Heiligenstadt 
+		</ul>
+		<ul>
+			Ebergötzen
+		</ul>
+			<ul>
+			Wahlsburg
+		</ul>
+			<ul>
+			Fürstenberg 
+		</ul>
+			<ul>
+			Helsa 
+		</ul>
+			<ul>
+			Großalmerode
+		</ul>
+
+		</li>
+	</section>
+    
+	<section id="route04">
+		<h3>Hänsel &amp; Gretel Route</h3>
+		<hr><img src="img/Screenshot4.png" alt="Hänsel &amp; Gretel">
+		<p>Laut Forschungen von Georg Ossegg kann der Ort der Handlung von dem Märchen Hänsel und Gretel nur im Spessart liegen.  Zufällig stieß er bei einem seiner zahlreichen Spaziergänge auf einen Waldweg, der verblüffend einer Illustration aus dem Jahre 1818 glich, die in eine frühe Ausgabe von "Hänsel und Gretel" aufgenommen war. Von hier war es nicht schwer, mit Hilfe der exakten Angaben im Märchen den Ort ausfindig zu machen, an dem das Elternhaus von Hänsel und Gretel gestanden haben mußte. </p>
+		<p> (Quelle: https://www.zeit.de/1963/43/ist-das-die-wahrheit-ueber-haensel-und-gretel)</p>
+			<p>
+		Leider gibt es außer dieser Quelle keine weiteren Standorte, die mit dem Märchen verknüpft werden. </p>
+		
+	</section>
+
+	<section id="route05">
+		<h3>Rotkäppchen</h3>
+		<hr><img src="img/Screenshot3.png" alt="Rotkäppchen">
+		<p>Bei der Rotkäppchen Route handelt es sich um ein Bahnradweg. Die Strecke heißt offiziell Bahnradweg Rotkäppchenland. Sie besteht aus 3 Etappen und führt durch mehr als 30 verschiedenen Orten und Städten.</p>
+		<p>Länge: 75 km</p>
+		<p> Direkt am Streckenbeginn gibt es hier den recht großen, gebührenfreien Parkplatz Haaßehügel bei Treysa. (siehe Map) </p>
+		
+	</section>
+
+
+
+	<section id="map">
+		<h3>Map</h3>
+		<hr>
+        <div id="mapid"></div>	
+	</section>
+    
+    
+    <script type="text/javascript">
+    
+    var mymap = L.map('mapid').setView([51, 10], 6);
+     
+	L.tileLayer('https:stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png', {
+		attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	subdomains: 'abcd',
+	minZoom: 0,
+	maxZoom: 20,
+	}).addTo(mymap); 
+
+	//Dornröschen ICON
+	var dornIcon = L.icon({
+    iconUrl: 'img/dron.png',
+    iconSize:     [50, 50], // size of the icon
+    //shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [10, 20], // point of the icon which will correspond to marker's location
+    //shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [15, -10] // point from which the popup should open relative to the iconAnchor
+     });
+
+	//Frau Holle ICON
+	var holleIcon = L.icon({
+    iconUrl: 'img/holle.png',
+    iconSize:     [50, 50], 
+    iconAnchor:   [10, 20],  
+    popupAnchor:  [15, -10] 
+     });
+        
+	//Brüder Grimm ICON
+	var grimmIcon = L.icon({
+    iconUrl: 'img/grimm.png',
+    iconSize:     [50, 50], 
+    iconAnchor:   [10, 20],   
+    popupAnchor:  [15, -10] 
+     });
+
+	//Rotkäppchen ICON
+	var rotIcon = L.icon({
+    iconUrl: 'img/rotkap.png',
+    iconSize:     [50, 50],  
+    iconAnchor:   [10, 20], 
+    popupAnchor:  [15, -10] 
+     });
+   
+	// Hänsel und Gretel
+	var gretelIcon = L.icon({
+    iconUrl: 'img/gretel.png',
+    iconSize:     [50, 50], 
+    iconAnchor:   [10, 20],  
+    popupAnchor:  [15, -10] 
+     });
+        
+     //Parkplatz
+
+     var parkIcon = L.icon({
+    iconUrl: 'img/P.png',
+    iconSize:     [50, 50], 
+    iconAnchor:   [10, 20],  
+    popupAnchor:  [15, -10] 
+     });
+    //Leaflet extra markers - Sehenswürdigkeiten
+    var starMarker = L.ExtraMarkers.icon({
+    icon: 'fa-number',
+    markerColor: 'green-dark',
+    shape: 'star',
+    prefix: 'fa'
+  });
+
+     
+     //Dornröschen Route
+     var dornroschen = L.layerGroup();
+     L.marker([51.419285, 9.6557588], {icon: dornIcon}).bindPopup("Hann.Münden").addTo(dornroschen);
+     L.marker([51.4286582, 9.4771217], {icon: dornIcon}).bindPopup("Immenhausen").addTo(dornroschen);
+     L.marker([51.4970925, 9.3860472], {icon: dornIcon}).bindPopup("Hofgeismar").addTo(dornroschen);
+     L.marker([51.5738886, 9.4205694], {icon: dornIcon}).bindPopup("Trendelburg").addTo(dornroschen);
+     L.marker([51.5965297, 9.6064613], {icon: dornIcon}).bindPopup("Oberweser").addTo(dornroschen);
+     L.marker([51.73116, 9.402839], {icon: dornIcon}).bindPopup("Fürstenberg").addTo(dornroschen);
+     L.marker([51.543611, 9.5375], {icon: dornIcon}).bindPopup("Sababurg").addTo(dornroschen);
+        
+     //Sehenswürdigkeiten Dornrösschen Märchen:    
+     //L.marker([51.54362, 9.5370], {icon: starMarker}).bindPopup("Sehensw").addTo(dornroschen);
+
+     //Frau Holle Route
+     var holle = L.layerGroup();
+        
+     L.marker([51.312047, 9.67083], {icon: holleIcon}).bindPopup("Nieste").addTo(holle);
+     L.marker([51.2831485, 9.6212385], {icon: holleIcon}).bindPopup("Kaufungen").addTo(holle);
+     L.marker([51.1982109, 9.7197866], {icon: holleIcon}).bindPopup("Hessisch Lichtenau").addTo(holle);
+     L.marker([51.2703403 , 9.9800957], {icon: holleIcon}).bindPopup("Bad Sooden-Allendorf").addTo(holle);
+     L.marker([51.3399682, 9.8555643], {icon: holleIcon}).bindPopup("Witzenhausen").addTo(holle);
+     L.marker([51.3770297, 10.1439107], {icon: holleIcon}).bindPopup("Heilbad Heiligenstadt ").addTo(holle);
+     L.marker([51.5710484, 10.1072144], {icon: holleIcon}).bindPopup("Ebergötzen").addTo(holle);
+     L.marker([51.6182697, 9.5681743], {icon: holleIcon}).bindPopup("Wahlsburg").addTo(holle);
+     L.marker([51.73116, 9.402839], {icon: holleIcon}).bindPopup("Fürstenberg").addTo(holle);
+     L.marker([51.2603585, 9.6894179], {icon: holleIcon}).bindPopup("Helsa").addTo(holle);
+     L.marker([51.2587473, 9.786006], {icon: holleIcon}).bindPopup("Großalmerode").addTo(holle);
+
+     //Lebensorte der Brüder Grimm
+     var deutsche = L.layerGroup();
+        
+     L.marker([50.1264123, 8.9283105], {icon: grimmIcon}).bindPopup("Hanau").addTo(deutsche);
+     L.marker([50.3166763, 9.4512418], {icon: grimmIcon}).bindPopup("Steinau an der Straße").addTo(deutsche);
+     L.marker([50.3493544, 9.5255493], {icon: grimmIcon}).bindPopup("Schlüchtern").addTo(deutsche);
+     L.marker([50.4261733,9.4041114], {icon: grimmIcon}).bindPopup("Freiensteinau").addTo(deutsche);
+     L.marker([50.5595067, 9.3463111], {icon: grimmIcon}).bindPopup("Herbstein").addTo(deutsche);
+     L.marker([ 50.750828, 9.2691602], {icon: grimmIcon}).bindPopup("Alsfeld ").addTo(deutsche);
+     L.marker([50.8021728,8.7667933], {icon: grimmIcon}).bindPopup("Marburg").addTo(deutsche);
+
+    // Rotkäppchen Route
+    var rotkappchen = L.layerGroup();
+        
+    L.marker([50.909328, 9.189271], {icon: rotIcon}).bindPopup("Treysa").addTo(rotkappchen);
+    L.marker([50.91039363171484,  9.234952926635742], {icon: rotIcon}).bindPopup("Ziegenhain ").addTo(rotkappchen);
+    L.marker([50.883922, 9.256217], {icon: rotIcon}).bindPopup("Loshausen ").addTo(rotkappchen);
+    L.marker([50.87780243724243, 9.309368133544922], {icon: rotIcon}).bindPopup("Riebelsdorf ").addTo(rotkappchen);
+    L.marker([50.869118, 9.343763], {icon: rotIcon}).bindPopup("Neukirchen  ").addTo(rotkappchen);
+    L.marker([50.84039192596998, 9.364128112792969], {icon: rotIcon}).bindPopup("Nausis  ").addTo(rotkappchen);
+	L.marker([50.823934, 9.383906], {icon: rotIcon}).bindPopup("Kleinropperhausen  ").addTo(rotkappchen);
+	L.marker([50.82575546743661, 9.40577745437622], {icon: rotIcon}).bindPopup("Steinmühle  ").addTo(rotkappchen);
+	L.marker([50.81581, 9.409684], {icon: rotIcon}).bindPopup("Bahnhof Ottrau  ").addTo(rotkappchen);
+	L.marker([50.807114,9.442753 ], {icon: rotIcon}).bindPopup("Görzhain  ").addTo(rotkappchen);
+	L.marker([50.82299028767253, 9.435067176818848], {icon: rotIcon}).bindPopup("Weißenborn  ").addTo(rotkappchen);
+	L.marker([50.862481, 9.419154], {icon: rotIcon}).bindPopup("Olberode   ").addTo(rotkappchen);
+	L.marker([50.841765,9.457340 ], {icon: rotIcon}).bindPopup(" Hausen ").addTo(rotkappchen);
+	L.marker([50.850265,9.489798 ], {icon: rotIcon}).bindPopup("Wahlshausen  ").addTo(rotkappchen);
+	L.marker([50.855061, 9.531888 ], {icon: rotIcon}).bindPopup("Frielingen  ").addTo(rotkappchen);
+	L.marker([50.851853, 9.553823 ], {icon: rotIcon}).bindPopup("Heddersdorf ").addTo(rotkappchen);
+	L.marker([50.835404, 9.574928 ], {icon: rotIcon}).bindPopup("Kirchheim  ").addTo(rotkappchen);
+	L.marker([50.82006, 9.575139 ], {icon: rotIcon}).bindPopup("Kleba ").addTo(rotkappchen);
+	L.marker([50.801656, 9.60473 ], {icon: rotIcon}).bindPopup("Niederaula ").addTo(rotkappchen);
+	L.marker([50.825186,9.65016 ], {icon: rotIcon}).bindPopup("Beiershausen").addTo(rotkappchen);
+	L.marker([50.834131336018494,9.667046070098877], {icon: rotIcon}).bindPopup("Asbach").addTo(rotkappchen);
+	L.marker([50.849717,9.67668 ], {icon: rotIcon}).bindPopup("Eichhof").addTo(rotkappchen);
+	L.marker([50.868134,9.706848 ], {icon: rotIcon}).bindPopup("Bad Hersfeld ").addTo(rotkappchen);
+	L.marker([50.913305833009005,9.194135069847107 ], {icon: parkIcon}).bindPopup("Parkplatz Haaßehügel ").addTo(rotkappchen);
+	
+	//Hänsel und Gretel
+	var hanselgretel = L.layerGroup();
+        //keine exakten Ortschaften zu diesem Märchen zu finden (lokalisieren)
+
+    // Sehenswürdigkeiten
+    var sehenswurdigkeiten = L.layerGroup();
+    L.marker([51.19394, 10.032373], {icon: starMarker}).bindPopup("Frau-Holle-Land").addTo(sehenswurdigkeiten);
+    L.marker([50.750445, 9.269733], {icon: starMarker}).bindPopup("Alsfelder Märchenhaus").addTo(sehenswurdigkeiten);
+    L.marker([51.2687, 9.96506], {icon: starMarker}).bindPopup("Märchenlaternenweg").addTo(sehenswurdigkeiten);
+    L.marker([50.810698, 8.775352], {icon: starMarker}).bindPopup("Grimm-Dich-Pfad").addTo(sehenswurdigkeiten);
+    L.marker([51.539266, 9.531726], {icon: starMarker}).bindPopup("Tierpark Sababurg").addTo(sehenswurdigkeiten);
+    L.marker([51.091704, 8.933336], {icon: starMarker}).bindPopup("Bergpark Wilhelmshöhe").addTo(sehenswurdigkeiten);
+    L.marker([51.309163, 10.309163], {icon: starMarker}).bindPopup("GRIMMWELT Kassel").addTo(sehenswurdigkeiten);
+    L.marker([53.076261, 8.807552], {icon: starMarker}).bindPopup("Bremer Stadtmusikanten (Statue)").addTo(sehenswurdigkeiten);
+     L.marker([51.317061, 9.490092], {icon: starMarker}).bindPopup("Deutsche Märchenstraße e.V.").addTo(sehenswurdigkeiten);
+     //ESSEN:Grimms Garten (ESSEN-Symbol hinzufügen-Aktivität)
+     L.marker([51.308785, 9.489337], {icon: starMarker}).bindPopup("Grimms Garten").addTo(sehenswurdigkeiten);
+     L.marker([51.280161, 9.634457], {icon: starMarker}).bindPopup("Stiftskirche Zum heiligen Kreuz").addTo(sehenswurdigkeiten);
+     L.marker([51.279994, 9.635680], {icon: starMarker}).bindPopup("Theater Laku Paka").addTo(sehenswurdigkeiten);
+     L.marker([51.193787, 10.032420], {icon: starMarker}).bindPopup("Geo-Naturpark Frau-Holle-Land").addTo(sehenswurdigkeiten);
+       
+        
+     /*L.marker([51.193787, 10.032420], {icon: starMarker}).bindPopup("Geo-Naturpark Frau-Holle-Land").addTo(sehenswurdigkeiten);L.marker([51.193787, 10.032420], {icon: starMarker}).bindPopup("Geo-Naturpark Frau-Holle-Land").addTo(sehenswurdigkeiten);L.marker([51.193787, 10.032420], {icon: starMarker}).bindPopup("Geo-Naturpark Frau-Holle-Land").addTo(sehenswurdigkeiten);L.marker([51.193787, 10.032420], {icon: starMarker}).bindPopup("Geo-Naturpark Frau-Holle-Land").addTo(sehenswurdigkeiten);L.marker([51.193787, 10.032420], {icon: starMarker}).bindPopup("Geo-Naturpark Frau-Holle-Land").addTo(sehenswurdigkeiten);L.marker([51.193787, 10.032420], {icon: starMarker}).bindPopup("Geo-Naturpark Frau-Holle-Land").addTo(sehenswurdigkeiten);L.marker([51.193787, 10.032420], {icon: starMarker}).bindPopup("Geo-Naturpark Frau-Holle-Land").addTo(sehenswurdigkeiten); */
+        
+
+        
+   //Circle für DornröschenArea
+    L.circle([51.566240134420916, 9.510469436645508], 21500, {
+		color: 'silver',
+		fillColor: 'silver',
+		fillOpacity: 0.5,
+
+	}).addTo(mymap).bindPopup("Dornröschen ");
+
+
+
+    var hanselgretel = L.layerGroup();
+
+    var latlngs = [[50.1918469807045, 9.380950927734375],[50.154026111358014, 9.163970947265625],[49.68273545366889, 9.24774169921875],[50.10032188683107, 9.817657470703125],[50.1918469807045, 9.380950927734375]];
+	var polygon = L.polygon(latlngs, {color: 'silver'}).addTo(mymap).bindPopup("Hänsel und Gretel");
+    
+
+	/*L.circle([51.5, 11], 500, {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5
+	}).addTo(mymap).bindPopup("Sehenswürdigkeit XY");*/
+
+	//Polygon für Deutsche Märchenstraße
+
+	var latlngs = [[50.044793599665226,8.53912353515625],[50.044793599665226, 9.766845703125],[50.835432306955276,9.766845703125],[50.835432306955276, 8.53912353515625],[50.044793599665226,8.53912353515625]];
+	var polygon = L.polygon(latlngs, {color: 'silver'}).addTo(mymap).bindPopup("Deutsche Märchenstraße");
+	//map.fitBounds(polygon.getBounds());
+     
+	//Polygon für Frau Holle
+	var latlngs = [[51.744704, 9.384384],[51.11657, 9.673462],[51.549011, 10.59082],[51.744704, 9.384384]];
+	var polygon = L.polygon(latlngs, {color: 'silver'}).addTo(mymap).bindPopup("Frau Holle");
+
+	//POlygon für Rotkäppchen
+	var latlngs = [[50.881001, 9.783325],[50.741047, 9.544373],[50.916267, 9.179077],[50.881001, 9.783325]];
+	var polygon = L.polygon(latlngs, {color: 'silver'}).addTo(mymap).bindPopup("Frau Holle");
+     //polylines for Dornröschen
+     var pointA = new L.LatLng(51.419285, 9.6557588);
+     var pointB = new L.LatLng(51.4286582, 9.4771217);
+     var pointC = new L.LatLng(51.4970925, 9.3860472);
+     var pointD = new L.LatLng(51.5738886, 9.4205694);
+     var pointE = new L.LatLng(51.543611, 9.5375);
+     var pointF = new L.LatLng(51.5965297, 9.6064613);
+     var pointG = new L.LatLng(51.73116, 9.402839);
+     var pointList = [pointA, pointB, pointC,pointD,pointE, pointF, pointG];
+
+     var firstpolyline = new L.Polyline(pointList, {
+        color: 'black',
+        weight: 3,
+        opacity: 0.5,
+        smoothFactor: 10
+
+     });
+     firstpolyline.addTo(dornroschen).bindPopup("Dornröschen ");
+
+
+     //polylines for Holle
+     var pointA = new L.LatLng(51.312047, 9.67083);
+     var pointB = new L.LatLng(51.2831485, 9.6212385);
+     var pointC = new L.LatLng(51.2603585, 9.6894179);
+     var pointD = new L.LatLng(51.1982109, 9.7197866);
+     var pointE = new L.LatLng(51.2587473, 9.786006);
+     var pointF = new L.LatLng(51.2703403 , 9.9800957);
+     var pointG = new L.LatLng(51.3399682, 9.8555643);
+     var pointH = new L.LatLng(51.3770297, 10.1439107);
+     var pointI = new L.LatLng(51.5710484, 10.1072144);
+     var pointJ = new L.LatLng(51.6182697, 9.5681743);
+     var pointK = new L.LatLng(51.73116, 9.402839);
+     var pointList = [pointA, pointB, pointC, pointD, pointE, pointF, pointG, pointH, pointI, pointJ, pointK]
+
+     var firstpolyline = new L.Polyline(pointList, {
+        color: 'black',
+        weight: 3,
+        opacity: 0.5,
+        smoothFactor: 10
+
+     });
+     firstpolyline.addTo(holle).bindPopup("Frau Holle ");
+
+        
+     //Route für Deutsche Märchenstr. (Lebensorte der Brüder Grimm)
+
+     var pointA = new L.LatLng(50.1264123, 8.9283105);
+     var pointB = new L.LatLng(50.3166763, 9.4512418);
+     var pointC = new L.LatLng(50.3493544, 9.5255493);
+     var pointD = new L.LatLng(50.4261733,9.4041114);
+     var pointE = new L.LatLng(50.5595067, 9.3463111);
+     var pointF = new L.LatLng(50.750828, 9.2691602);
+     var pointG = new L.LatLng(50.8021728,8.7667933);
+     var pointList = [pointA, pointB, pointC,pointD,pointE, pointF, pointG];
+
+     var firstpolyline = new L.Polyline(pointList, {
+        color: 'black',
+        weight: 3,
+        opacity: 0.5,
+        smoothFactor: 10
+
+     });
+     firstpolyline.addTo(deutsche).bindPopup("Deutsche Märchenstraße ");
+
+     var pointA = new L.LatLng(50.909328, 9.189271);
+     var pointB = new L.LatLng(50.91039363171484,  9.234952926635742);
+     var pointC = new L.LatLng(50.883922, 9.256217);
+     var pointD = new L.LatLng(50.87780243724243, 9.309368133544922);
+     var pointE = new L.LatLng(50.869118, 9.343763);
+     var pointF = new L.LatLng(50.84039192596998, 9.364128112792969);
+     var pointG = new L.LatLng(50.823934, 9.383906);
+     var pointA1 = new L.LatLng(50.82575546743661, 9.40577745437622);
+     var pointB1 = new L.LatLng(50.81581, 9.409684);
+     var pointC1 = new L.LatLng(50.807114,9.442753 );
+     var pointD1 = new L.LatLng(50.82299028767253, 9.435067176818848);
+     var pointE1 = new L.LatLng(50.862481, 9.419154);
+     var pointF1 = new L.LatLng(50.841765,9.457340 );
+     var pointG1 = new L.LatLng(50.850265,9.489798 );
+     var pointA2 = new L.LatLng(50.855061, 9.531888 );
+     var pointB2 = new L.LatLng(50.851853, 9.553823 );
+     var pointC2 = new L.LatLng(50.835404, 9.574928 );
+     var pointD2 = new L.LatLng(50.82006, 9.575139 );
+     var pointE2 = new L.LatLng(50.801656, 9.60473 );
+     var pointF2 = new L.LatLng(50.825186,9.65016 );
+     var pointG2 = new L.LatLng(50.834131336018494,9.667046070098877);
+     var pointA3 = new L.LatLng(50.849717,9.67668 );
+     var pointB3 = new L.LatLng(50.868134,9.706848 );
+     
+     var pointList = [pointA, pointB, pointC,pointD,pointE, pointF, pointG,pointA1, pointB1, pointC1,pointD1,pointE1, pointF1, pointG1,pointA2, pointB2, pointC2,pointD2,pointE2, pointF2, pointG2,pointA3, pointB3];
+
+     var firstpolyline = new L.Polyline(pointList, {
+        color: 'black',
+        weight: 3,
+        opacity: 0.5,
+        smoothFactor: 10
+
+     });
+     firstpolyline.addTo(rotkappchen).bindPopup("Rotkäppchen ");
+
+     
+    var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+            'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+    var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
+        streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
+    var baseLayers = {
+        "Grayscale": grayscale,
+        "Streets": streets
+    };
+
+    var overlays = {
+        "Dornröschen..............................": dornroschen,
+        "Frau Holle..................................": holle,
+        "Lebensstationen Brüder Grimm": deutsche,
+        "Rotkäppchen.............................": rotkappchen,
+        "Hänsel & Gretel.........................": hanselgretel,
+        "Sehenswürdigkeiten..................": sehenswurdigkeiten
+    };
+
+    L.control.layers(baseLayers, overlays).addTo(mymap);
+
+    
+	var popup = L.popup();
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent("Koordinaten: " + e.latlng.toString())
+			.openOn(mymap);
+	}
+	mymap.on('click', onMapClick);
+
+     
+       //Timeline JS:
+        
+             data = {"type": "FeatureCollection",
+                        "features": [
+                            {
+                                "type": "Feature",
+                                "properties": {
+                                    "title": "1785/86",
+                                    "content": "1785 und 1786 sind die Brüder Jacob und Wilhelm Grimm nacheinander im hessischen Hanau geboren und mit weiteren vier Geschwistern im Elternhaus aufgewachsen."
+                                },
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        8.928207,
+                                        50.127299,
+                                        1
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Feature",
+                                "properties": {
+                                    "title": "1791",
+                                    "content": "1791 zog die Familie Grimm nach Steinau, wo ihr Vater als Amtmann beschäftigt war. Gewohnt hat die Familie im Amthaus. Die Brüder wurden in Steinau in den Fächern Latein, Religion und Erdkunde unterrichtet."
+                                },
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        9.451102,
+                                        50.317978, 
+                                        1
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Feature",
+                                "properties": {
+                                    "title": "1798",
+                                    "content": "1798 zogen die Brüder aufgrund des gezwungenen Auszugs aus dem Amtshaus, ausgelöst durch den Tod ihres Vaters, zu einer Tante in Kassel. Sie besuchten hier das Gymnasium."
+                                },
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        9.478806,
+                                        51.312694, 
+                                        1
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Feature",
+                                "properties": {
+                                    "title": "1802/03",
+                                    "content": "Nach dem Ende ihrer Schulzeit im Jahr 1802/03 zogen die Brüder gemeinsam nach Marburg, um ein Studium über die Rechstwissenschaften zu beginnen. Ihr Interesse an der deutschen Sprache und Literatur stieg an."
+                                },
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        8.762738,
+                                        50.800278, 
+                                        1
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Feature",
+                                "properties": {
+                                    "title": "1806",
+                                    "content": "Die Brüder zogen zurück nach Kassel. Sie begannen nach ihrem Studium Sagen, Märchen und Volkslieder zu sammeln."
+                                    
+                                },
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        9.478806,
+                                        51.312694, 
+                                        1
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Feature",
+                                "properties": {
+                                    "title": "1812",
+                                    "content": "1812 veröffentlichen die Brüder ihre Sammlungen in Form von Bücherausgaben. Hierbei entstanden die altbekannten Märchen wie Rotkäppchen, Dornröschen, Hänsel & Gretel und weitere."
+                                },
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        9.478806,
+                                        51.312694, 
+                                        1
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Feature",
+                                "properties": {
+                                    "title": "1829",
+                                    "content": "Die Brüder waren 1829 an der Universität von Göttingen als Professoren und Bibliothekare tätig. Aber schon nach wenigen Jahren zogen die Brüder wieder nach Kassel zu Verwandten, um mit anderen Professoren gegen die Politik des neuen Königs von Hannover zu protestieren."
+                                    
+                                },
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        9.921357,
+                                        51.536350, 
+                                        1
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Feature",
+                                "properties": {
+                                    "title": "1840",
+                                    "content": "1840 wurden die Brüder Grimm vom damaligen König von Preußen an die Akademie der Wissenschaften in Berlin geholt. Dort arbeiteten sie gemeinsam an ihrem Deutschen Wörterbuch. Ihr Begrabnis fand ungefähr 20 Jahre später (nebeneinander) auf dem alten Matthäi-Friedhof in Berlin statt."
+                                    
+                                },
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        13.405541,
+                                        52.513750, 
+                                        1
+                                    ]
+                                }
+                            },
+            
+                        ]
+                    }
+
+            
+            getDataAddMarkers = function( {label, value, map, exclamation} ) {
+                map.eachLayer(function (layer) {
+                        if (layer instanceof L.Marker) {
+                            map.removeLayer(layer);
+                        }
+                });
+
+                filteredData = data.features.filter(function (i, n) {
+                    return i.properties.title===label;
+                    });
+
+                var markerArray = []
+                L.geoJson(filteredData, {
+                    onEachFeature: function onEachFeature(feature, layer) {
+                        content = `${feature.properties.content} <br> (${Math.round(value/8 * 100)}% der Biographie)`
+                        var popup = L.popup().setContent(content);
+                        layer.bindPopup(popup);
+                        markerArray.push(layer);
+                    }
+                }).addTo(map);
+                
+                var markerGroup = L.featureGroup(markerArray);
+                map.fitBounds(markerGroup.getBounds()).setZoom(6);
+                //markerGroup.addTo(map);
+            };
+
+            L.control.timelineSlider({
+                timelineItems: ["1785/86", "1791", "1798", "1802/03", "1806", "1812", "1829", "1840"], 
+                changeMap: getDataAddMarkers })
+            .addTo(mymap);        
+            
+    </script>
+
+
+	<!-------FOOTER--------------------------------------------->
+
+	<footer>
+		<p> &copy; 2019 Bala &amp; Buacan </p>
+	</footer>
+
+	<script
+			  src="https://code.jquery.com/jquery-1.12.4.min.js"
+			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/mobile-menue.js"></script>	
+	
+
+
+  </body>
+</html>
