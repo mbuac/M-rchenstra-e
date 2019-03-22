@@ -8,3 +8,5 @@ Screenshots von dem Projekt:
 
 
 ![alt text](https://github.com/mbuac/Maerchenstrasse/blob/master/Screenshot%20(158).png "Screenshot 158")
+![alt text](https://github.com/mbuac/Maerchenstrasse/blob/master/Screenshot%20(159).png "Screenshot 159")
+![alt text](https://github.com/mbuac/Maerchenstrasse/blob/master/Screenshot%20(160).png "Screenshot 160")
