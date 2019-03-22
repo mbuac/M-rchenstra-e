@@ -7,4 +7,4 @@ Ziel des Projekts ist die Veranschaulichung der Standorte der Brüder Grimm Mär
 Screenshots von dem Projekt:
 
 
-![alt text](https://github.com/Klibink/Media-Transformation-VR-Game/blob/startmenu/Screenshot%20(148).png "Sandbox")
+![alt text](https://github.com/mbuac/Maerchenstrasse/blob/master/Screenshot%20(158).png "Screenshot 158")
